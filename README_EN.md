@@ -1,17 +1,19 @@
+[Русский](README.md)
+
 # wsl-dashboard
 
-Manage WSL distributions through a browser. Start, stop, view usage stats — all in one window.
+Manage WSL distributions from the browser. Start, stop, view stats — all in one place.
 
-Uses ~10 MB RAM, runs as a local server.
+~10 MB RAM footprint, runs as a local server.
 
-## Usage
+## Run
 
 ```bash
 cargo run --release
-# → opens http://localhost:7070
+# → http://localhost:7070
 ```
 
-Or install:
+Or:
 ```bash
 cargo install --path .
 wsl-dashboard
@@ -19,12 +21,12 @@ wsl-dashboard
 
 ## Features
 
-- List of all WSL distributions with version and status
+- List all WSL distributions with version and status
 - Start / stop with one click
-- Real-time CPU and RAM per distribution
-- Open shell directly from the UI
-- Export distribution as .tar with one button
-- Auto-refresh every 2 seconds
+- Live CPU and RAM per distribution
+- Open a shell directly from the UI
+- Export a distribution to `.tar` with one button
+- Status auto-refresh every 2 seconds
 
 ## Requirements
 
