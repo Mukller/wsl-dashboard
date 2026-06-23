@@ -45,7 +45,3 @@ wsl-dashboard
 
 - Windows 10/11 с WSL2
 - Rust 1.75+
-
-## Источник вдохновения
-
-[wsl-dashboard](https://github.com/zoonderkins/wsl-dashboard) из HelloGitHub #121
